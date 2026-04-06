@@ -24,7 +24,7 @@ Download **app-release.apk** from this release. If upgrading from a build signed
 
 ## Source
 
-Repository: `https://github.com/balumn/cleanify` (create the repo and push if not live yet.)
+Repository: `https://github.com/balumn/cleanify`
 
 ## Credits
 
