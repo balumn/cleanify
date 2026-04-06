@@ -1,6 +1,6 @@
 # Cleanify v1.0.0 — General availability / open source
 
-Cleanify is **open source** under the [MIT License](../LICENSE). Use is subject to the [Terms of Use](TERMS.md) and [Privacy Policy](PRIVACY.md).
+Cleanify is **open source** under the [MIT License](../LICENSE). Use is subject to the [Terms of Use](../docs/TERMS.md) and [Privacy Policy](../docs/PRIVACY.md).
 
 ## Highlights
 
