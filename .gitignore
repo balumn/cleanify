@@ -1,0 +1,19 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio / IDEA
+.idea/
+*.iml
+.kotlin/
+
+# Local
+local.properties
+keystore.properties
+release.keystore
+*.jks
+*.keystore
+
+# OS
+.DS_Store

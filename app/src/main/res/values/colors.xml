@@ -1,0 +1,9 @@
+<resources>
+    <color name="cleanify_green_500">#2E7D32</color>
+    <color name="cleanify_green_700">#1B5E20</color>
+    <color name="cleanify_green_50">#E8F5E9</color>
+
+    <color name="cleanify_bg">#FFFFFF</color>
+    <color name="cleanify_text_primary">#0B0F0D</color>
+</resources>
+

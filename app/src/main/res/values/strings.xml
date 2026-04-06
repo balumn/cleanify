@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Cleanify</string>
+
+    <string name="accessibility_service_description">
+        Cleanify uses Accessibility to automate navigating Android app details in order to stop selected apps.
+        Use with care.
+    </string>
+
+    <string name="dashboard_title">Clean</string>
+    <string name="select_apps_title">Select Apps to Clean</string>
+    <string name="save_selection">Save</string>
+    <string name="clean_up">Clean Up</string>
+    <string name="cleanup_complete">Cleanup Complete</string>
+    <string name="cleanup_failed">Cleanup Failed</string>
+
+    <string name="system_app">System</string>
+    <string name="user_app">User</string>
+
+    <string name="accessibility_required_title">Enable Accessibility Automation</string>
+    <string name="accessibility_required_body">
+        To stop apps on an unrooted device, Cleanify must be enabled as an Accessibility Service.
+        Turn it on in Android Accessibility settings, then come back.
+    </string>
+    <string name="quick_start_title">Quick start</string>
+    <string name="quick_start_step_1">1) Enable Accessibility</string>
+    <string name="quick_start_step_2">2) Pick your apps</string>
+    <string name="quick_start_step_3">3) Tap Clean Up</string>
+    <string name="open_accessibility_settings">Open Accessibility Settings</string>
+
+    <string name="select_all">Select all</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="edit_apps">Edit</string>
+    <string name="user_apps_section_title">User apps</string>
+    <string name="system_apps_section_title">System apps</string>
+    <string name="running_apps_section_title">Running in background</string>
+    <string name="stopped_apps_section_title">Already stopped</string>
+    <string name="stopped_apps_count_subtitle">%1$d apps</string>
+    <string-array name="no_running_apps_happy_messages">
+        <item>All quiet in the background — enjoy the calm.</item>
+        <item>Nothing running back there. Your phone gets a little breather.</item>
+        <item>Background queue is empty. Nice and tidy.</item>
+        <item>No stray apps today: you’re in great shape.</item>
+        <item>Zero background buzz. That’s a small win worth noticing.</item>
+        <item>Clear skies in the background. You’re all set.</item>
+        <item>Peace and quiet: no apps fighting for attention right now.</item>
+        <item>Your background is happily empty. Savor the moment.</item>
+        <item>Nothing to clean here: everything’s already taking a nap.</item>
+        <item>A calm background is a happy background.</item>
+    </string-array>
+    <string name="no_stopped_apps">No apps are marked as stopped yet.</string>
+    <string name="app_already_stopped">This app is already stopped.</string>
+    <string name="expand">Expand</string>
+    <string name="collapse">Collapse</string>
+    <string name="back">Back</string>
+
+    <string name="stopping_app">Stopping app %1$d of %2$d…</string>
+
+    <string name="indexing_message">Scanning your apps…</string>
+    <string name="dashboard_loading_title">Hang tight</string>
+    <string name="dashboard_loading_subtitle">Finding which apps are stopped vs running…</string>
+
+    <string-array name="dashboard_loading_messages">
+        <item>Indexing package states—almost there.</item>
+        <item>Please wait; this keeps your lists accurate.</item>
+        <item>Querying the system for force-stopped apps…</item>
+        <item>Patience: Android doesn’t expose this instantly.</item>
+        <item>Reconciling background vs stopped processes…</item>
+        <item>Still working: good things take a second.</item>
+        <item>Scanning application flags (FLAG_STOPPED)…</item>
+        <item>Hold on: we’re matching reality to your list.</item>
+        <item>Syncing runtime state with storage…</item>
+        <item>Almost done—thanks for waiting.</item>
+    </string-array>
+    <string name="dashboard_tagline">Quiet the noise in your background</string>
+    <string name="empty_state_cta_hint">Add apps you are okay force-stopping when you need focus or battery.</string>
+    <string name="no_apps_selected_yet">No apps selected yet.</string>
+    <string name="running_apps_selection_hint">Tip: select running apps, then tap the bolt in the toolbar to force clean only those, or the remove icon to drop apps you cannot kill (e.g. Bluetooth, Files). Clean Up stops every running app.</string>
+    <string name="dashboard_selected_count">%1$d selected</string>
+    <string name="content_desc_remove_selected_from_list">Remove selected apps from your list</string>
+    <string name="content_desc_force_cleanup_selected">Force clean selected running apps</string>
+    <string name="removed_apps_from_list_snackbar">Removed %1$d app(s) from your list</string>
+</resources>
+
